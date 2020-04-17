@@ -1,4 +1,4 @@
-17278857897913235
+17282032054328075
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -2211,6 +2211,13 @@ SMD 8540
 0
 4
 4
+CSTNE16M0V51Z000R0
+Murata_CSTNE16M0V51Z000R0
+
+
+0
+0
+0
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -42962,6 +42969,13 @@ Converter_DCDC
 Converter_DCDC_muRata_OKI-78SR_Vertical
 https://power.murata.com/data/power/oki-78sr.pdf
 78sr3.3 78sr5 78sr9 78sr12 78srXX
+0
+3
+3
+Crystal
+CSTNE16M0V51Z000R0
+CSTNE16M0V51Z000R0-3
+Crystal or Oscillator
 0
 3
 3

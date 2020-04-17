@@ -4,4 +4,5 @@
   (lib (name Type-C)(type KiCad)(uri ${KIPRJMOD}/Type-C.pretty)(options "")(descr ""))
   (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/MX_Alps_Hybrid/MX_Only.pretty)(options "")(descr ""))
   (lib (name binarykb)(type KiCad)(uri ${KIPRJMOD}/binarykb.pretty)(options "")(descr ""))
+  (lib (name CSTNE16M0V51Z000R0)(type KiCad)(uri ${KIPRJMOD}/CSTNE16M0V51Z000R0.pretty)(options "")(descr ""))
 )
