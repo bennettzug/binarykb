@@ -1,15 +1,15 @@
-Id,Designator,Package,Quantity,Designation
-1,"R4,R5",R_0603_1608Metric,2,5.1k
-2,R3,R_0603_1608Metric,1,10k
-3,"R2,R1",R_0603_1608Metric,2,22k
-4,F1,Fuse_0603_1608Metric,1,500mA
-5,C4,C_0603_1608Metric,1,4.7uF
-6,"C3,C2",C_0603_1608Metric,2,0.1uF
-7,C1,C_0603_1608Metric,1,1uF
-8,"MX1,MX2",MXOnly-1U-Hotswap,2,MX-NoLED
-9,USB1,HRO-TYPE-C-31-M-12,1,HRO-TYPE-C-31-M-12
-10,G***,binarykblogoFP,1,LOGO
-11,SW1,SKQG-1155865,1,SW_PUSH
-12,Y1,Resonator_SMD-3Pin_7.2x3.0mm,1,16 MHz
+num,Designator,Package,Quantity,Designation
+1,Y1,CSTNE16M0V51Z000R0,1,16 MHz
+2,"R4,R5",R_0603_1608Metric,2,5.1k
+3,R3,R_0603_1608Metric,1,10k
+4,"R2,R1",R_0603_1608Metric,2,22k
+5,F1,Fuse_0603_1608Metric,1,500mA
+6,C4,C_0603_1608Metric,1,4.7uF
+7,"C3,C2",C_0603_1608Metric,2,0.1uF
+8,C1,C_0603_1608Metric,1,1uF
+9,"MX1,MX2",Kailh Hotswap Sockets,2,MX-NoLED
+10,USB1,HRO-TYPE-C-31-M-12,1,HRO-TYPE-C-31-M-12
+11,G***,binarykblogoFP,1,LOGO
+12,SW1,SKQG-1155865,1,SW_PUSH
 13,U2,SOT143B,1,PRTR5V0U2X
 14,U1,QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm,1,ATmega32U2-MU
