@@ -1,0 +1,21 @@
+### Module positions - created on 4/20/2020 1:37:05 AM ###
+### Printed by Pcbnew version kicad (5.1.5)-3
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref     Val                 Package                                   PosX       PosY       Rot  Side
+C1        1uF                 C_0603_1608Metric                     -24.9555    19.1135   90.0000  bottom
+C2        0.1uF               C_0603_1608Metric                     -15.4305    20.7645  270.0000  bottom
+C3        0.1uF               C_0603_1608Metric                     -16.3235    14.7955  270.0000  bottom
+C4        4.7uF               C_0603_1608Metric                     -18.9865    14.7955  270.0000  bottom
+F1        500mA               Fuse_0603_1608Metric                  -27.3685    22.8275  270.0000  bottom
+R1        22k                 R_0603_1608Metric                     -22.4235    13.2275    0.0000  bottom
+R2        22k                 R_0603_1608Metric                     -22.4155    15.4305    0.0000  bottom
+R3        10k                 R_0603_1608Metric                     -20.1295    25.3365    0.0000  bottom
+R4        5.1k                R_0603_1608Metric                     -30.6235    16.7275   90.0000  bottom
+R5        5.1k                R_0603_1608Metric                     -37.6555    17.0815   90.0000  bottom
+SW1       SW_PUSH             SKQG-1155865                           -4.9235    21.8275   90.0000  bottom
+U1        ATmega32U2-MU       QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm   -20.3060    20.9232    0.0000  bottom
+U2        PRTR5V0U2X          SOT143B                               -34.8615    17.2085  180.0000  bottom
+USB1      HRO-TYPE-C-31-M-12  HRO-TYPE-C-31-M-12                    -34.1947    28.0670    0.0000  bottom
+Y1        16_MHz              CSTNE16M0V51Z000R0                    -11.5235    17.9275  270.0000  bottom
+## End
