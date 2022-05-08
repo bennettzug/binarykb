@@ -1,0 +1,503 @@
+EESchema Schematic File Version 5
+EELAYER 36 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+Comment5 ""
+Comment6 ""
+Comment7 ""
+Comment8 ""
+Comment9 ""
+$EndDescr
+Connection ~ 6750 5550
+Connection ~ 6800 2750
+Connection ~ 8650 3450
+Connection ~ 8700 3850
+Connection ~ 8750 3350
+Connection ~ 8750 3950
+Connection ~ 8750 4850
+Connection ~ 8750 5050
+Connection ~ 8800 3150
+Connection ~ 8800 3650
+Connection ~ 8900 2850
+Connection ~ 8900 3000
+Connection ~ 8950 3450
+Connection ~ 9550 3350
+NoConn ~ 8550 2950
+NoConn ~ 8550 3550
+Wire Wire Line
+	5500 3350 5500 3500
+Wire Wire Line
+	5700 3750 5500 3750
+Wire Wire Line
+	5700 3950 5400 3950
+Wire Wire Line
+	5800 3250 6100 3250
+Wire Wire Line
+	5800 3450 6100 3450
+Wire Wire Line
+	5800 3650 5700 3650
+Wire Wire Line
+	5900 3750 6100 3750
+Wire Wire Line
+	6000 3650 6100 3650
+Wire Wire Line
+	6100 3950 5900 3950
+Wire Wire Line
+	6700 2750 6800 2750
+Wire Wire Line
+	6700 5550 6750 5550
+Wire Wire Line
+	6750 5550 6750 5600
+Wire Wire Line
+	6750 5550 6800 5550
+Wire Wire Line
+	6800 2750 6800 2650
+Wire Wire Line
+	6800 2750 6900 2750
+Wire Wire Line
+	7500 5250 7700 5250
+Wire Wire Line
+	7900 5250 8050 5250
+Wire Wire Line
+	8400 4850 8750 4850
+Wire Wire Line
+	8400 5050 8750 5050
+Wire Wire Line
+	8550 2850 8900 2850
+Wire Wire Line
+	8550 3050 8600 3050
+Wire Wire Line
+	8550 3150 8750 3150
+Wire Wire Line
+	8550 3250 8650 3250
+Wire Wire Line
+	8550 3350 8750 3350
+Wire Wire Line
+	8550 3450 8650 3450
+Wire Wire Line
+	8550 3750 8900 3750
+Wire Wire Line
+	8550 3850 8700 3850
+Wire Wire Line
+	8550 3950 8750 3950
+Wire Wire Line
+	8600 3650 8550 3650
+Wire Wire Line
+	8650 3250 8650 3450
+Wire Wire Line
+	8650 3450 8950 3450
+Wire Wire Line
+	8700 2750 8550 2750
+Wire Wire Line
+	8700 3850 8700 2750
+Wire Wire Line
+	8700 3900 8700 3850
+Wire Wire Line
+	8750 3150 8750 3350
+Wire Wire Line
+	8750 3350 9550 3350
+Wire Wire Line
+	8750 3900 8700 3900
+Wire Wire Line
+	8750 3900 8750 3950
+Wire Wire Line
+	8750 3950 8750 4000
+Wire Wire Line
+	8750 4850 8750 4700
+Wire Wire Line
+	8750 4850 9100 4850
+Wire Wire Line
+	8750 5200 8750 5050
+Wire Wire Line
+	8800 3050 8800 3150
+Wire Wire Line
+	8800 3150 8800 3650
+Wire Wire Line
+	8800 3150 8950 3150
+Wire Wire Line
+	8800 3650 8800 3850
+Wire Wire Line
+	8800 3850 8700 3850
+Wire Wire Line
+	8900 2850 9200 2850
+Wire Wire Line
+	8900 3000 8900 2850
+Wire Wire Line
+	8900 3750 8900 3000
+Wire Wire Line
+	8950 3250 8950 3450
+Wire Wire Line
+	8950 3450 10250 3450
+Wire Wire Line
+	9100 5050 8750 5050
+Wire Wire Line
+	9400 2850 9800 2850
+Wire Wire Line
+	9550 3000 8900 3000
+Wire Wire Line
+	9550 3150 9550 3000
+Wire Wire Line
+	9550 3250 9550 3350
+Wire Wire Line
+	9550 3350 10250 3350
+Text Notes 7350 7500 0    50   ~ 0
+Binary Keyboard
+Text Notes 8150 7650 0    50   ~ 0
+4/1/20 (really)
+Text GLabel 5500 3750 0    50   Input ~ 0
+D-
+Text GLabel 5700 3650 0    50   Input ~ 0
+D+
+Text GLabel 7500 3450 2    50   Input ~ 0
+MX2
+Text GLabel 7500 3550 2    50   Input ~ 0
+MX1
+Text GLabel 9450 3950 2    50   Input ~ 0
+MX1
+Text GLabel 10100 3950 2    50   Input ~ 0
+MX2
+Text GLabel 10250 3350 2    50   Input ~ 0
+D+
+Text GLabel 10250 3450 2    50   Input ~ 0
+D-
+$Comp
+L binarykb-rescue:GND-keyboard_parts #PWR0101
+U 1 1 5E8A8F15
+P 5500 3050
+F 0 "#PWR0101" H 5500 3100 20  0001 C CNN
+F 1 "GND" H 5500 3109 30  0000 C CNN
+F 2 "" H 5500 3050 60  0000 C CNN
+F 3 "" H 5500 3050 60  0000 C CNN
+	1    5500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR04
+U 1 1 5EAE2303
+P 6800 2650
+F 0 "#PWR04" H 6800 2500 50  0001 C CNN
+F 1 "+5V" H 6815 2823 50  0000 C CNN
+F 2 "" H 6800 2650 50  0001 C CNN
+F 3 "" H 6800 2650 50  0001 C CNN
+	1    6800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5E845832
+P 8750 4700
+F 0 "#PWR07" H 8750 4550 50  0001 C CNN
+F 1 "+5V" H 8765 4873 50  0000 C CNN
+F 2 "" H 8750 4700 50  0001 C CNN
+F 3 "" H 8750 4700 50  0001 C CNN
+	1    8750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR09
+U 1 1 5E8563EA
+P 8900 2850
+F 0 "#PWR09" H 8900 2700 50  0001 C CNN
+F 1 "VCC" H 8917 3023 50  0000 C CNN
+F 2 "" H 8900 2850 50  0001 C CNN
+F 3 "" H 8900 2850 50  0001 C CNN
+	1    8900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR011
+U 1 1 5E85774B
+P 9800 2850
+F 0 "#PWR011" H 9800 2700 50  0001 C CNN
+F 1 "+5V" H 9815 3023 50  0000 C CNN
+F 2 "" H 9800 2850 50  0001 C CNN
+F 3 "" H 9800 2850 50  0001 C CNN
+	1    9800 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5E841932
+P 5400 3950
+F 0 "#PWR01" H 5400 3700 50  0001 C CNN
+F 1 "GND" H 5405 3777 50  0000 C CNN
+F 2 "" H 5400 3950 50  0001 C CNN
+F 3 "" H 5400 3950 50  0001 C CNN
+	1    5400 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E94C090
+P 5500 3500
+F 0 "#PWR02" H 5500 3250 50  0001 C CNN
+F 1 "GND" H 5500 3500 50  0000 C CNN
+F 2 "" H 5500 3500 50  0001 C CNN
+F 3 "" H 5500 3500 50  0001 C CNN
+	1    5500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E83A2C7
+P 6750 5600
+F 0 "#PWR03" H 6750 5350 50  0001 C CNN
+F 1 "GND" H 6755 5427 50  0000 C CNN
+F 2 "" H 6750 5600 50  0001 C CNN
+F 3 "" H 6750 5600 50  0001 C CNN
+	1    6750 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5E83BEDD
+P 8050 5250
+F 0 "#PWR05" H 8050 5000 50  0001 C CNN
+F 1 "GND" H 8055 5077 50  0000 C CNN
+F 2 "" H 8050 5250 50  0001 C CNN
+F 3 "" H 8050 5250 50  0001 C CNN
+	1    8050 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5E894E3E
+P 8750 4000
+F 0 "#PWR06" H 8750 3750 50  0001 C CNN
+F 1 "GND" H 8755 3827 50  0000 C CNN
+F 2 "" H 8750 4000 50  0001 C CNN
+F 3 "" H 8750 4000 50  0001 C CNN
+	1    8750 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 5E845F31
+P 8750 5200
+F 0 "#PWR08" H 8750 4950 50  0001 C CNN
+F 1 "GND" H 8755 5027 50  0000 C CNN
+F 2 "" H 8750 5200 50  0001 C CNN
+F 3 "" H 8750 5200 50  0001 C CNN
+	1    8750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 5E98CE69
+P 9250 4150
+F 0 "#PWR010" H 9250 3900 50  0001 C CNN
+F 1 "GND" H 9255 3977 50  0000 C CNN
+F 2 "" H 9250 4150 50  0001 C CNN
+F 3 "" H 9250 4150 50  0001 C CNN
+	1    9250 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5E98D555
+P 9900 4150
+F 0 "#PWR012" H 9900 3900 50  0001 C CNN
+F 1 "GND" H 9905 3977 50  0000 C CNN
+F 2 "" H 9900 4150 50  0001 C CNN
+F 3 "" H 9900 4150 50  0001 C CNN
+	1    9900 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5E83D0AD
+P 5800 3750
+F 0 "R1" V 5850 3650 50  0000 C CNN
+F 1 "22k" V 5850 3850 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5800 3750 50  0001 C CNN
+F 3 "~" H 5800 3750 50  0001 C CNN
+	1    5800 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 5E83CEFE
+P 5900 3650
+F 0 "R2" V 5850 3500 50  0000 C CNN
+F 1 "22" V 5850 3800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 3650 50  0001 C CNN
+F 3 "~" H 5900 3650 50  0001 C CNN
+	1    5900 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5E83B968
+P 7800 5250
+F 0 "R3" V 7604 5250 50  0000 C CNN
+F 1 "10k" V 7695 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7800 5250 50  0001 C CNN
+F 3 "~" H 7800 5250 50  0001 C CNN
+	1    7800 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 5E8BAB24
+P 8700 3050
+F 0 "R4" V 8600 3000 50  0000 C CNN
+F 1 "5.1k" V 8600 3150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 3050 50  0001 C CNN
+F 3 "~" H 8700 3050 50  0001 C CNN
+	1    8700 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R5
+U 1 1 5E8AA0C4
+P 8700 3650
+F 0 "R5" V 8600 3600 50  0000 C CNN
+F 1 "5.1k" V 8600 3750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 3650 50  0001 C CNN
+F 3 "~" H 8700 3650 50  0001 C CNN
+	1    8700 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5E856C7C
+P 9300 2850
+F 0 "F1" V 9095 2850 50  0000 C CNN
+F 1 "500mA" V 9186 2850 50  0000 C CNN
+F 2 "Fuse:Fuse_0603_1608Metric" H 9350 2650 50  0001 L CNN
+F 3 "~" H 9300 2850 50  0001 C CNN
+	1    9300 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5E83F422
+P 5800 3950
+F 0 "C1" V 5850 4000 50  0000 L CNN
+F 1 "1uF" V 5850 3750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5800 3950 50  0001 C CNN
+F 3 "~" H 5800 3950 50  0001 C CNN
+	1    5800 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5E841F9C
+P 8400 4950
+F 0 "C2" H 8492 4996 50  0000 L CNN
+F 1 "0.1uF" H 8492 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8400 4950 50  0001 C CNN
+F 3 "~" H 8400 4950 50  0001 C CNN
+	1    8400 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5E842E57
+P 8750 4950
+F 0 "C3" H 8842 4996 50  0000 L CNN
+F 1 "0.1uF" H 8842 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 8750 4950 50  0001 C CNN
+F 3 "~" H 8750 4950 50  0001 C CNN
+	1    8750 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 5E889AD8
+P 9100 4950
+F 0 "C4" H 9192 4996 50  0000 L CNN
+F 1 "4.7uF" H 9192 4905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 9100 4950 50  0001 C CNN
+F 3 "~" H 9100 4950 50  0001 C CNN
+	1    9100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L binarykb-rescue:SW_PUSH-keyboard_parts SW1
+U 1 1 5E8A8638
+P 5800 3050
+F 0 "SW1" H 5800 3305 50  0000 C CNN
+F 1 "SW_PUSH" H 5800 3214 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 5800 3050 60  0001 C CNN
+F 3 "" H 5800 3050 60  0000 C CNN
+	1    5800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L binarykb-rescue:MX-NoLED-MX_Alps_Hybrid MX1
+U 1 1 5E8621CA
+P 9300 4000
+F 0 "MX1" H 9333 4223 60  0000 C CNN
+F 1 "MX-NoLED" H 9333 4149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 8675 3975 60  0001 C CNN
+F 3 "" H 8675 3975 60  0001 C CNN
+	1    9300 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L binarykb-rescue:MX-NoLED-MX_Alps_Hybrid MX2
+U 1 1 5E866005
+P 9950 4000
+F 0 "MX2" H 9983 4223 60  0000 C CNN
+F 1 "MX-NoLED" H 9983 4149 20  0000 C CNN
+F 2 "MX_Only:MXOnly-1U-Hotswap" H 9325 3975 60  0001 C CNN
+F 3 "" H 9325 3975 60  0001 C CNN
+	1    9950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator_Small Y1
+U 1 1 5E948D86
+P 5700 3350
+F 0 "Y1" V 5650 3500 50  0000 C CNN
+F 1 "16 MHz" V 5500 3300 50  0000 C CNN
+F 2 "Crystal:CSTNE16M0V51Z000R0" H 5675 3350 50  0001 C CNN
+F 3 "~" H 5675 3350 50  0001 C CNN
+	1    5700 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L binarykb-rescue:PRTR5V0U2X-random-keyboard-parts U2
+U 1 1 5E8A74B6
+P 9250 3200
+F 0 "U2" H 9250 3450 60  0000 C CNN
+F 1 "PRTR5V0U2X" H 9250 3350 60  0000 C CNN
+F 2 "random-keyboard-parts:SOT143B" H 9250 3200 60  0001 C CNN
+F 3 "" H 9250 3200 60  0001 C CNN
+	1    9250 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L binarykb-rescue:HRO-TYPE-C-31-M-12-Type-C USB1
+U 1 1 5E891AC0
+P 8450 3300
+F 0 "USB1" H 8283 4097 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 8283 3991 60  0000 C CNN
+F 2 "Type-C:HRO-TYPE-C-31-M-12" H 8450 3300 60  0001 C CNN
+F 3 "" H 8450 3300 60  0001 C CNN
+	1    8450 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L binarykb-rescue:ATmega32U2-MU-MCU_Microchip_ATmega U1
+U 1 1 5E859491
+P 6800 4150
+F 0 "U1" H 6300 2750 50  0000 C CNN
+F 1 "ATmega32U2-MU" H 7200 2750 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm" H 6800 4150 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/doc7799.pdf" H 6800 4150 50  0001 C CNN
+	1    6800 4150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
