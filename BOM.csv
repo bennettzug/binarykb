@@ -2,7 +2,7 @@ num,Designator,Package,Quantity,Designation
 1,Y1,CSTNE16M0V51Z000R0,1,16 MHz
 2,"R4,R5",R_0603_1608Metric,2,5.1k
 3,R3,R_0603_1608Metric,1,10k
-4,"R2,R1",R_0603_1608Metric,2,22k
+4,"R2,R1",R_0603_1608Metric,2,22
 5,F1,Fuse_0603_1608Metric,1,500mA
 6,C4,C_0603_1608Metric,1,4.7uF
 7,"C3,C2",C_0603_1608Metric,2,0.1uF
